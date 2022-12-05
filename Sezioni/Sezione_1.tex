@@ -45,12 +45,12 @@ La risposta in frequenza del circuito considerato presenta uno zero nell'origine
     K = \dfrac{R_{2}C_{2} (R_{3}+R_{4})}{R_{3}} = 20,547
     \end{equation}
     \begin{equation}\label{eq:eqGuadagnoDecibel}
-    (K)_{dB} = 20 log_{10} (K) = 26,25 dB
+    (K)_{dB} = 20 log_{10} (K) = 26,25\hspace{2pt}dB
     \end{equation}
 \item 
     La risposta presenta uno zero nell'origine
     \begin{equation}\label{eq:eqPoloOrigine}
-    +20 \dfrac{dB}{DEC}
+    +20 \hspace{2pt}\dfrac{dB}{DEC}
     \end{equation}
 \item
     La risposta presenta un polo alla frequenza di taglio
@@ -58,13 +58,13 @@ La risposta in frequenza del circuito considerato presenta uno zero nell'origine
     \omega = \dfrac{1}{R_{2}C_{2}} = 48,71
     \end{equation}
     \begin{equation}\label{eq:eqFrequenzaTaglio}
-    f = \dfrac{\omega}{2\pi} = 7,75 Hz
+    f = \dfrac{\omega}{2\pi} = 7,75\hspace{2pt}Hz
     \end{equation}
 \end{itemize}
 
 \subsection{Frequenza di Taglio Inferiore}\label{subsec:frequenza_taglio_inferiore}
 Come calcolato precedentemente la risposta in frequenza presenta un polo alla frequenza di taglio  (Equazione n° \ref{eq:eqFrequenzaTaglio})
-$$f = \dfrac{\omega}{2\pi} = 7,75 Hz$$
+$$f = \dfrac{\omega}{2\pi} = 7,75\hspace{2pt}Hz$$
 
 \subsection{Diagramma di Bode}\label{subsec:diagramma_bode}
 Il diagramma di Bode che risulta dall'analisi analitica è il seguente\\
@@ -158,10 +158,10 @@ V_{o} = V_{i}\dfrac{\dfrac{j\omega R_{2}C_{2}(R_{3}+R_{4})}{R_{3}}}{1+j\omega C_
 |V_{o}| = |V_{i}| * \big| \dfrac{j441100\pi}{1 + j41\pi} \big|
 \end{equation}
 \begin{equation}\label{eq:eqAmpiezzaSaturazioneRisultato}
-|V_{i}| < \dfrac{8}{1002,39} = 8 mV
+|V_{i}| < \dfrac{8}{1002,39} = 8\hspace{2pt}mV
 \end{equation}
-Come trovato nell'equazione \ref{eq:eqAmpiezzaSaturazioneRisultato} l'ampiezza in ingresso per la quale l'amplificatore satura è 8mV.\\
-Simulando ora il circuito con un'ampiezza di ingresso di 16mV otteniamo il seguente risultato
+Come trovato nell'equazione \ref{eq:eqAmpiezzaSaturazioneRisultato} l'ampiezza in ingresso per la quale l'amplificatore satura è 8 mV.\\
+Simulando ora il circuito con un'ampiezza di ingresso di 16 mV otteniamo il seguente risultato
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{Figure/SaturazioneUscita 1.8.2.jpg}
